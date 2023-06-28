@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+}
+
+.cal-body{
+    /* position:absolute; */
+    margin: 10rem auto;
+   
+    border:2px solid black;
+    display: flex;
+    flex-direction:column;
+    background-color: pink;
+    min-height:20rem;
+    width:23.5rem;
+    
+}
+
+.cal{
+    text-align:center;
+}
+.values{
+    text-align:right;
+    background-color: white;
+}
+
+
+input,
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+     margin: 0;
+     text-align:right;
+     height:3rem;
+     border:none;
+     outline :none;
+}
+
+button{
+    width:5rem;
+    height:3rem;
+    margin:0.2rem;
+    
+}
+
